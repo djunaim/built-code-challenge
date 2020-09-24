@@ -1,5 +1,4 @@
 import React, { PropsWithChildren } from 'react';
-import { Budget } from '../store/budget/models/Budget';
 
 interface BudgetProps {
   color: string;

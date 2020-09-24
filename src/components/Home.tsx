@@ -20,9 +20,11 @@ export default class Home extends React.Component {
         <span>{ count }</span>
         <Button handleClick={increment} color={'lightblue'} >Increment</Button>
         <Button handleClick={decrement} color={'pink'} >Decrement</Button>
-        <span>{ budget }</span>
-        <BudgetButton handleClick={yes} color={'green'}>yes</BudgetButton>
-        <BudgetButton handleClick={no} color={'red'}>no</BudgetButton>
+        <div>
+        <h2>{ budget }</h2>
+          <BudgetButton handleClick={yes} color={'green'}>yes</BudgetButton>
+          <BudgetButton handleClick={no} color={'red'}>no</BudgetButton>
+        </div>
       </div>
     )
   }
