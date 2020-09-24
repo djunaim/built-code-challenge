@@ -1,5 +1,4 @@
 import { Action, Reducer } from 'redux';
-import { isParameter } from 'typescript';
 import { LenderActionTypes, IS_APPROVED, NOT_APPROVED } from './models/actions';
 import { Lender } from './models/Lender';
 
